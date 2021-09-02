@@ -13,6 +13,7 @@ import Cart from './components/Cart/Cart';
 import Login from './components/Login/Login';
 import Privateroute from './components/Privateroute/Privateroute';
 import Shipment from './components/Shipment/Shipment';
+import SucessFull from './components/SucessFull/SucessFull';
 
 
 export const userContext = createContext();
@@ -45,6 +46,12 @@ function App() {
           <Privateroute path="/shipment">
             <Shipment></Shipment>
           </Privateroute>
+          <Route path='/sucessfull'>
+            <SucessFull></SucessFull>
+          </Route >
+          <Route path='*'>
+            <Products></Products>
+          </Route>
         </Switch>
       </Router>
     </userContext.Provider>
