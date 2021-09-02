@@ -1,0 +1,28 @@
+.product{
+    width: 400px;
+    margin: 10px;
+    background-color: honeydew;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.image:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 1s;
+}
+.button button{
+    margin: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: orange;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 100px;
+}
+.button button:hover{
+    cursor: pointer;
+    opacity: .8;
+}
